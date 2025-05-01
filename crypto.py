@@ -38,5 +38,5 @@ for row in rows:
     except Exception as e:
         print(f"Error parsing row: {e}")
 
-with open("res.json","w") as file:
+with open("crypto.json","w") as file:
     json.dump(results,file,indent=4)
